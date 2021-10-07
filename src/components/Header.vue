@@ -1,7 +1,9 @@
 <template>
 	<header>
-		<input type="text" v-model="searchText">
-		<button @click="$emit('searching', searchText)">Cerca</button>
+		<form>
+			<input type="text" v-model="searchText">
+			<button type="submit" @click.prevent="$emit('searching', searchText)">Cerca</button>
+		</form>
 	</header>
 </template>
 
