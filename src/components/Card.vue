@@ -21,7 +21,7 @@ export default {
 		return {
 			flags: ['it', 'en', 'fr']
 		}
-	}
+	},
 }
 </script>
 
